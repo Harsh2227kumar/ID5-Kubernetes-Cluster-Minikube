@@ -19,9 +19,9 @@
 
 **What we did:**
 
-`curl -LO ...
-chmod +x kubectl
-sudo mv kubectl /usr/local/bin/`
+`curl -LO ...`
+`chmod +x kubectl`
+`sudo mv kubectl /usr/local/bin/`
 **What it achieved:**Gave us the ability to deploy, scale, and inspect Kubernetes resources like pods, services, and deployments.
 
 **Logic:**kubectl sends commands to the Kubernetes API server running inside Minikube.
@@ -32,10 +32,10 @@ sudo mv kubectl /usr/local/bin/`
 
 **What we did:**
 
-`curl -LO ...
-chmod +x minikube
-sudo mv ...
-minikube start --driver=docker`
+`curl -LO ...`
+`chmod +x minikube`
+`sudo mv ...`
+`minikube start --driver=docker`
 
 **What it achieved:**Bootstrapped a local Kubernetes environment inside the droplet using Docker.
 
